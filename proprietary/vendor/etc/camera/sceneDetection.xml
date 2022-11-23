@@ -6,7 +6,7 @@
 	<frameNumToSave>3</frameNumToSave>
 	<downsampleFactor>2</downsampleFactor>
   </commonSetting>
-  
+
   <hdr>
     <indoor_iso>800</indoor_iso>
 	<indoor_expoTime>60</indoor_expoTime>
@@ -22,7 +22,7 @@
     <indoor_face_highExpoRangeExtended>5</indoor_face_highExpoRangeExtended>
     <indoor_face_lowRatioThre>0.05</indoor_face_lowRatioThre>
     <indoor_face_highRatioThre>0.05</indoor_face_highRatioThre>
-	
+
 	<outdoor_iso>200</outdoor_iso>
 	<outdoor_expoTime>20</outdoor_expoTime>
 	<outdoor_minRevisedBrightness>418.939</outdoor_minRevisedBrightness>
@@ -38,7 +38,7 @@
     <outdoor_face_highExpoRangeExtended>5</outdoor_face_highExpoRangeExtended>
     <outdoor_face_lowRatioThre>0.05</outdoor_face_lowRatioThre>
     <outdoor_face_highRatioThre>0.05</outdoor_face_highRatioThre>
-	
+
 	<night_iso>100</night_iso>
     <night_expoTime>10</night_expoTime>
     <night_maxRevisedBrightness>3</night_maxRevisedBrightness>
@@ -54,14 +54,14 @@
     <night_face_highExpoRangeExtended>5</night_face_highExpoRangeExtended>
     <night_face_lowRatioThre>0.05</night_face_lowRatioThre>
     <night_face_highRatioThre>0.05</night_face_highRatioThre>
-	
+
     <default_lowExpoRange>10</default_lowExpoRange>
     <default_highExpoRange>8</default_highExpoRange>
     <default_lowExpoRangeExtended>5</default_lowExpoRangeExtended>
     <default_highExpoRangeExtended>5</default_highExpoRangeExtended>
     <default_lowRatioThre>0.03</default_lowRatioThre>
     <default_highRatioThre>0.03</default_highRatioThre>
-    
+
 	<touch_lowExpoRange>10</touch_lowExpoRange>
 	<touch_highExpoRange>8</touch_highExpoRange>
 	<touch_lowExpoRangeExtended>5</touch_lowExpoRangeExtended>
@@ -69,7 +69,7 @@
 	<touch_lowRatioThre>0.03</touch_lowRatioThre>
 	<touch_highRatioThre>0.03</touch_highRatioThre>
   </hdr>
-  
+
   <!--add by fengchaoyu for motion detection -->
   <motion>
 	<motion_frameDiffThre>17.85</motion_frameDiffThre>
@@ -83,13 +83,13 @@
 	<motion_downsample>4</motion_downsample>
 	<motion_startIndex>7</motion_startIndex>
 	<motion_indoorExpoTime>40</motion_indoorExpoTime>
-	
+
 	<motion_threStaGap>50.0</motion_threStaGap>
 	<motion_threEndGap>220.0</motion_threEndGap>
 	<motion_threFirStage>30.0</motion_threFirStage>
 	<motion_threSecStageK>0.2</motion_threSecStageK>
 	<motion_threThirStage>20.0</motion_threThirStage>
-	
+
 	<motion_faceLeftXThre>40</motion_faceLeftXThre>
 	<motion_faceTopYThre>40</motion_faceTopYThre>
 	<motion_faceRollThre>20</motion_faceRollThre>
@@ -97,7 +97,7 @@
 	<motion_faceYawThre>30</motion_faceYawThre>
 	<motion_faceSizeThre>40</motion_faceSizeThre>
   </motion>
-  
+
   <!--add by fengchaoyu for wideangle recommend-->
   <wideangle>
         <wideangle_horizontal>180</wideangle_horizontal>
@@ -125,8 +125,8 @@
         <dxo_lux_index_thresh>350</dxo_lux_index_thresh>
         <dxo_middle_ratio_thresh>0.6</dxo_middle_ratio_thresh>
 
-        <dxo_lux_index_thresh_face>470.0</dxo_lux_index_thresh_face>
-        <dxo_nightview_light_face>10.0</dxo_nightview_light_face>
+        <dxo_lux_index_thresh_face>360.0</dxo_lux_index_thresh_face>
+        <dxo_nightview_light_face>13.0</dxo_nightview_light_face>
         <dxo_nightview_dark_ratio_thresh_face>0.18</dxo_nightview_dark_ratio_thresh_face>
         <dxo_nightview_middle_ratio_thresh_face>0.5</dxo_nightview_middle_ratio_thresh_face>
         <dxo_nightview_bright_ratio_thresh_face>0.008</dxo_nightview_bright_ratio_thresh_face>
@@ -231,12 +231,12 @@
         <velocity_max_ratio>0.021</velocity_max_ratio>
         <velocity_weight_block_inside>0.25</velocity_weight_block_inside>
         <velocity_weight_block_middle>0.125</velocity_weight_block_middle>
-        <velocity_gaus_kernel_sigma>0.4</velocity_gaus_kernel_sigma>        
+        <velocity_gaus_kernel_sigma>0.4</velocity_gaus_kernel_sigma>
   </image_motion>
 
   <tripod_pattern>
         <tripod_enter_threshold>0.008</tripod_enter_threshold>
-        <tripod_quit_threshold>0.48</tripod_quit_threshold> 
+        <tripod_quit_threshold>0.48</tripod_quit_threshold>
         <tripod_wait_frames>27</tripod_wait_frames>
         <tripod_enter_frames>14</tripod_enter_frames>
   </tripod_pattern>
@@ -250,6 +250,6 @@
         <ell_light_margin>2</ell_light_margin>
         <ell_similar_hist_thres>0.85</ell_similar_hist_thres>
         <ell_bright_thres>240</ell_bright_thres>
-        <ell_over_exp_ratio_thres>0.0137</ell_over_exp_ratio_thres>        
+        <ell_over_exp_ratio_thres>0.0137</ell_over_exp_ratio_thres>
   </ell_mode>
 </sceneDetection>
